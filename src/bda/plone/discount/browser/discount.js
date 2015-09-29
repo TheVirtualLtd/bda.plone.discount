@@ -1,11 +1,9 @@
-(function ($) {
+/* jslint browser: true */
+/* global jQuery, bdajax */
+(function($, bdajax) {
+    "use strict";
 
-    $(document).ready(function () {
-        $('#input-discount_form_filter').bind(
-            'change', discount_form.switch_form);
-    });
-
-    discount_form = {
+    var discount_form = {
 
         switch_form: function(event) {
             event.preventDefault();
@@ -61,4 +59,9 @@
         }
     };
 
-})(jQuery);
+    $(document).ready(function() {
+        $('#input-discount_form_filter').bind(
+            'change', discount_form.switch_form);
+    });
+
+}(jQuery, bdajax));
