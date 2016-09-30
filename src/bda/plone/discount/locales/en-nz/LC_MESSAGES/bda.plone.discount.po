@@ -1,23 +1,24 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: bda.plone.discount\n"
 "POT-Creation-Date: 2014-06-04 11:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-05-08 14:40 +1200\n"
+"Last-Translator: Robyn James <robyn@thevirtual.co.nz>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: en-nz\n"
+"Language-Name: New Zealand English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: DOMAIN\n"
+"Domain: bda.plone.discount\n"
+"X-Is-Fallback-For: en-au\n"
 
 #. Default: "absolute"
 #: ./browser/forms.py:142
 msgid "absolute"
-msgstr "absolute"
+msgstr "Absolute"
 
 #. Default: "General Rules for Cart"
 #: ./browser/views.py:53
@@ -27,7 +28,7 @@ msgstr "General Rules for Cart"
 #. Default: "Discount for Cart"
 #: ./browser/views.py:49
 msgid "cart_discount_title"
-msgstr "Discount for Cart"
+msgstr "Cart Discount"
 
 #. Default: "General Rules for Cart Items"
 #: ./browser/views.py:37
@@ -67,7 +68,7 @@ msgstr "Group"
 #: ./browser/group_header.pt:5
 #: ./browser/user_header.pt:5
 msgid "discount_form_label_kind"
-msgstr "Kind"
+msgstr "Type"
 
 #. Default: "Threshold"
 #: ./browser/general_header.pt:26
@@ -80,7 +81,7 @@ msgstr "Threshold"
 #: ./browser/forms.py:189
 #: ./browser/user_header.pt:47
 msgid "discount_form_label_user"
-msgstr "User"
+msgstr "Username"
 
 #. Default: "Valid From"
 #: ./browser/general_header.pt:33
@@ -94,7 +95,7 @@ msgstr "Valid From"
 #: ./browser/group_header.pt:40
 #: ./browser/user_header.pt:40
 msgid "discount_form_label_valid_to"
-msgstr "Valid To"
+msgstr "Valid Until"
 
 #. Default: "Value"
 #: ./browser/general_header.pt:19
@@ -132,12 +133,12 @@ msgstr "Group Rules for Cart Items"
 #. Default: "off"
 #: ./browser/forms.py:141
 msgid "off"
-msgstr "off"
+msgstr "Amount Off"
 
 #. Default: "percent"
 #: ./browser/forms.py:140
 msgid "percent"
-msgstr "percent"
+msgstr "Percent"
 
 #. Default: "User Rules for Cart"
 #: ./browser/views.py:56
